@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<group android:id="@+id/sec1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/electronics"
+            android:icon="@drawable/electronicspic"
+            android:title="Electronics" />
+        <item
+            android:id="@+id/appliance"
+            android:icon="@drawable/tv"
+            android:title="TV &amp; Appliances" />
+        <item
+            android:id="@+id/fashion"
+            android:icon="@drawable/fashion"
+            android:title="Fashion" />
+        <item
+            android:id="@+id/toysnbaby"
+            android:icon="@drawable/toys"
+            android:title="Toys &amp; Baby" />
+        <item
+            android:id="@+id/homenfurniture"
+            android:icon="@drawable/furniture"
+            android:title="Home &amp; Furniture" />
+        <item
+            android:id="@+id/beautynpersonal"
+            android:icon="@drawable/personal"
+            android:title="Beauty &amp; Personal Care" />
+        <item
+            android:id="@+id/sportsnbook"
+            android:icon="@drawable/books"
+            android:title="Sports, Books &amp; More" />
+        <item
+            android:id="@+id/refurbished"
+            android:icon="@drawable/refurbished"
+            android:title="Refurbished Products" />
+        <item
+            android:id="@+id/tickets"
+            android:icon="@drawable/plane"
+            android:title="Flights, Hotels &amp; Bus" />
+</group>
+<group android:checkableBehavior="single" android:id="@+id/sec2">
+            <item
+                android:id="@+id/offer"
+                android:icon="@drawable/offer"
+                android:title="Offer Zone" />
+            <item
+                android:id="@+id/game"
+                android:icon="@drawable/game"
+                android:title="Game Zone" />
+
+    <item
+        android:id="@+id/notifiction"
+        android:icon="@drawable/noti"
+        android:title="Notifications" />
+    <item
+        android:id="@+id/sellon"
+        android:icon="@drawable/sell"
+        android:title="Sell on Brilliant Buy" />
+</group>
+
+    <group android:id="@+id/mysection" android:checkableBehavior="single"  >
+        <item
+            android:id="@+id/myorder"
+            android:icon="@drawable/myorder"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/rewards"
+            android:icon="@drawable/reward"
+            android:title="My Rewards" />
+        <item
+            android:id="@+id/mycart"
+            android:icon="@drawable/cart"
+            android:title="My Cart" />
+        <item
+            android:id="@+id/mywishlist"
+            android:icon="@drawable/wishlist"
+            android:title="My Wishlist" />
+        <item
+            android:id="@+id/myacc"
+            android:icon="@drawable/account"
+            android:title="My Account" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+
+
+
+    </group>
+
+</menu>

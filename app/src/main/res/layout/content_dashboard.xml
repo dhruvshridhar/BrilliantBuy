@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Dashboard"
+    tools:showIn="@layout/app_bar_dashboard">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="350dp"
+                        android:layout_height="150dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/ad1" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="350dp"
+                        android:layout_height="150dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/ad2" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="350dp"
+                        android:layout_height="150dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/ad3" />
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="350dp"
+                        android:layout_height="150dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/ad4" />
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="350dp"
+                        android:layout_height="150dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/ad5" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp">
+
+                <android.support.v7.widget.GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:columnCount="6"
+                    app:rowCount="2">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/allcate"
+                        android:layout_marginRight="20dp"/>
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_marginRight="20dp"
+                        android:onClick="mobile"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/mobiles" />
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        app:srcCompat="@drawable/fashionpic"
+                        android:layout_marginRight="20dp"/>
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        app:srcCompat="@drawable/electronics"
+                        android:layout_marginRight="20dp"/>
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/sofa"
+                        android:layout_marginRight="20dp"/>
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        app:srcCompat="@drawable/cosmetics" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="75dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="All Categories"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="75dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_marginTop="10dp"
+                        android:text="Mobiles"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="75dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Fashion"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="75dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Electronics"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="75dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Home"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="75dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Cosmetics"
+                        android:textAlignment="center"
+                        android:textStyle="bold" />
+                </android.support.v7.widget.GridLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@color/colorPrimaryDark"
+                android:fontFamily="cursive"
+                android:padding="15dp"
+                android:text="Deals of the day!"
+                android:textAlignment="center"
+                android:textSize="42sp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryDark"
+                app:columnCount="1"
+                app:rowCount="3">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageView13"
+                        android:layout_width="175dp"
+                        android:layout_height="275dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/dealsday1"
+                        android:layout_marginRight="10dp"/>
+
+                    <ImageView
+                        android:id="@+id/imageView14"
+                        android:layout_width="175dp"
+                        android:layout_height="275dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/dealsday2" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center">
+
+
+                    <ImageView
+                        android:id="@+id/imageView15"
+                        android:layout_width="175dp"
+                        android:layout_height="275dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/dealsday3"
+                        android:layout_marginRight="10dp"/>
+
+                    <ImageView
+                        android:id="@+id/imageView16"
+                        android:layout_width="175dp"
+                        android:layout_height="275dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/dealsday4" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageView17"
+                        android:layout_width="175dp"
+                        android:layout_height="275dp"
+                        android:layout_marginRight="10dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/dealsday5" />
+
+                    <ImageView
+                        android:id="@+id/imageView18"
+                        android:layout_width="175dp"
+                        android:layout_height="275dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/dealsday6" />
+                </LinearLayout>
+
+
+            </android.support.v7.widget.GridLayout>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="Featured Sale"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="42sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/redmisale" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/androidtv" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="Thats all folks!"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
